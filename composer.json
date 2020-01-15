@@ -1,0 +1,24 @@
+{
+    "name": "ikevinshah/i18n",
+    "type": "library",
+    "description": "Simplistic i18n Class",
+    "keywords": ["internationalization ","language","i18n","lang"],
+    "homepage": "https://www.ikevinshah.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin S",
+            "email": "me@ikevinshah.com",
+            "homepage": "http://www.ikevinshah.com",
+            "role": "Developer"
+        }
+    ],
+    "require" : {
+        "php" : "^5.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iKevinShah\\": "src/"
+        }
+    }
+}
