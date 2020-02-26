@@ -1,4 +1,4 @@
-#Simple i18n
+# Simple i18n
 
 A simplistic PHP Internationalization and localization class.
  
