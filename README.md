@@ -1,7 +1,9 @@
 #Simple i18n
- A simplistic PHP Internationalization and localization class.
+
+A simplistic PHP Internationalization and localization class.
  
- The class helps achieve internationalization (i18n) via separate ini files for separate languages.
+The class helps achieve internationalization (i18n) via separate ini files for separate languages.
+
 ### Installation
 
 Installation via composer
