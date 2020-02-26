@@ -23,7 +23,7 @@ require_once '/path/to/i18n.php';
 
 2. Set the variables as per your app, initialize and use `L::word` to display.
 ````php
-$i18n = new ikevinshah\i18n($language,$ini_directory,$cache_directory,$fallback_language);
+$i18n = new iKevinShah\i18n($language,$ini_directory,$cache_directory,$fallback_language);
 $i18n->init();
 ````
 **Note:** Ensure that `$language.ini` file exists in the `$ini_directory`. So example if  I want to use russian (ru) on the current page and the `$ini_directory` is `/var/www/lang/`, class will search for ini file at the location of `/var/www/lang/ru.ini`. If the language file (ru) is not found, class will fallback to use the fallback language. If the `$fallback_language.ini` file is also not found, it will throw an error and **exit**. 
@@ -49,7 +49,7 @@ PHP:
 
 require 'vendor/autoload.php';
 
-$i18n = new ikevinshah\i18n('en','/var/www/lang/','/tmp/php_cache/');
+$i18n = new iKevinShah\i18n('en','/var/www/lang/','/tmp/php_cache/');
 $i18n->init();
 
 echo L::HELLO; // Hello
@@ -81,7 +81,7 @@ PHP:
 
 require 'vendor/autoload.php';
 
-$i18n = new ikevinshah\i18n('fr','/var/www/lang/','/tmp/php_cache/','en');
+$i18n = new iKevinShah\i18n('fr','/var/www/lang/','/tmp/php_cache/','en');
 $i18n->init();
 
 echo L::HELLO; // Bonjour
@@ -113,7 +113,7 @@ PHP:
 
 require 'vendor/autoload.php';
 
-$i18n = new ikevinshah\i18n('fr','/var/www/lang/','/tmp/php_cache/','en');
+$i18n = new iKevinShah\i18n('fr','/var/www/lang/','/tmp/php_cache/','en');
 $i18n->init();
 
 echo L::HELLO; // Hello
@@ -132,7 +132,7 @@ PHP:
 
 require 'vendor/autoload.php';
 
-$i18n = new ikevinshah\i18n('fr','/var/www/lang/','/tmp/php_cache/','en');
+$i18n = new iKevinShah\i18n('fr','/var/www/lang/','/tmp/php_cache/','en');
 $i18n->init(); // Error: RuntimeException: Lang file for fr does not exist. in /path/to/src/i18n.php:78
 
 echo L::HELLO;

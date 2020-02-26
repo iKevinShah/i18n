@@ -1,11 +1,11 @@
 <?php
 
-namespace ikevinshah;
+namespace iKevinShah;
 
 /**
  * Class i18n
  *
- * @package ikevinshah
+ * @package iKevinShah
  */
 class i18n
 {
